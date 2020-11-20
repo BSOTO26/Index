@@ -1,0 +1,166 @@
+/*scss document*/
+
+$myColor: #ff4d4d; 
+$myFontSize: 1em; 
+
+body {
+	font-family: 'Quicksand', sans-serif; 
+	box-sizing: border-box; 
+}
+
+#logo {
+	background-color: $myColor; 
+	overflow: hidden; 
+
+
+	#tpa {
+		
+		margin: 10px 0px 0px 50px; 
+		padding: 0px 0px 10px 0px; 
+		width: 90px; 
+		height: 90px; 
+	}
+
+	h3 {
+		display: block;
+		float: right; 
+		padding: 20px; 
+		font-size: 2em;
+		color: white;   
+	}
+}
+
+#navbar {
+
+	ul {
+		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color:  #ebf0ef;
+	}
+
+	li {
+		float: left; 
+	}
+
+	a {
+		display: block; 
+		color: black; 
+		text-align: center; 
+		padding: 14px 16px; 
+		text-decoration: none;  
+	}
+
+	a:hover {
+		background-color: $myColor; 
+	}
+}
+
+
+
+#slogan {
+	padding: 64px 16px; 
+	font-size: 2em; 
+	background-color: $myColor; 
+	
+
+	h1{
+		color: white; 
+		text-align: center; 
+	}
+}
+
+#slogan2 {
+	padding: 128px 16px; 
+	font-size: 2em; 
+	background-color: gray; 
+
+	h3{
+		color: white; 
+	}
+}
+
+iframe {
+	margin-left: 50px;
+}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev {
+	cursor: pointer;
+	position: relative;
+	top: 50%;
+	width: auto;
+	bottom: 245px; 
+	margin-right: 640px; 
+	padding: 16px;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	margin-right: 55px; 
+	padding: 16px;
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+#reuniones {
+	margin: 0px 150px 0px 150px; 
+}
+
+
+footer {
+	background-color: black; 
+
+	#fb {
+		color: white; 
+	}
+
+	#ig {
+		color: white; 
+	}
+
+	#git {
+		color: white; 
+	}
+
+	p {
+		color: white; 
+	}
+}
+
+
+
+

@@ -1,0 +1,80 @@
+/*scss document*/
+body {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+#logo {
+  background-color: #ff4d4d;
+  overflow: hidden;
+}
+#logo #tpa {
+  margin: 10px 0px 0px 50px;
+  padding: 0px 0px 10px 0px;
+  width: 90px;
+  height: 90px;
+}
+#logo h3 {
+  display: block;
+  float: right;
+  padding: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ebf0ef;
+}
+#navbar li {
+  float: left;
+}
+#navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #ff4d4d;
+}
+
+#slogan {
+  padding: 16px 16px;
+  font-size: 2em;
+  background-color: #ff4d4d;
+}
+#slogan h4 {
+  color: white;
+  text-align: left;
+}
+
+#contenido {
+  display: block;
+}
+#contenido h5 {
+  font-weight: bolder;
+  margin: 0 30px 0 0;
+}
+
+footer {
+  background-color: black;
+}
+footer #fb {
+  color: white;
+}
+footer #ig {
+  color: white;
+}
+footer #git {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=actividades_style.css.map */

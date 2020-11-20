@@ -1,0 +1,103 @@
+/*scss document*/
+
+$myColor: #ff4d4d; 
+$myFontSize: 1em; 
+
+body {
+	font-family: 'Quicksand', sans-serif; 
+	box-sizing: border-box; 
+}
+
+#logo {
+	background-color: $myColor; 
+	overflow: hidden; 
+
+
+	#tpa {
+		
+		margin: 10px 0px 0px 50px; 
+		padding: 0px 0px 10px 0px; 
+		width: 90px; 
+		height: 90px; 
+	}
+
+	h3 {
+		display: block;
+		float: right; 
+		padding: 20px; 
+		font-size: 2em;
+		color: white;   
+	}
+}
+
+#navbar {
+
+	ul {
+		list-style-type: none;
+  		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+  		background-color:  #ebf0ef;
+	}
+
+	li {
+		float: left; 
+	}
+
+	a {
+		display: block; 
+		color: black; 
+		text-align: center; 
+		padding: 14px 16px; 
+		text-decoration: none;  
+	}
+
+	a:hover {
+		background-color: $myColor; 
+	}
+}
+
+
+
+#slogan {
+	padding: 16px 16px; 
+	font-size: 2em; 
+	background-color: $myColor; 
+	
+
+	h4{
+		color: white; 
+		text-align: left; 
+	}
+}
+
+#contenido{
+	display: block; 
+	
+	h5{
+		font-weight: bolder; 
+		margin: 0 30px 0 0; 
+	}
+}
+
+
+footer {
+	background-color: black; 
+
+	#fb {
+		color: white; 
+	}
+
+	#ig {
+		color: white; 
+	}
+
+	#git {
+		color: white; 
+	}
+
+	p {
+		color: white; 
+	}
+}
+

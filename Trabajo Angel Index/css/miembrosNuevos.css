@@ -1,0 +1,91 @@
+/*scss document*/
+body {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+}
+
+#logo {
+  background-color: #ff4d4d;
+  overflow: hidden;
+}
+#logo #tpa {
+  margin: 10px 0px 0px 50px;
+  padding: 0px 0px 10px 0px;
+  width: 90px;
+  height: 90px;
+}
+#logo h3 {
+  display: block;
+  float: right;
+  padding: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ebf0ef;
+}
+#navbar li {
+  float: left;
+}
+#navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar a:hover {
+  background-color: #ff4d4d;
+}
+
+#slogan {
+  padding: 16px 16px;
+  font-size: 2em;
+  background-color: #ff4d4d;
+}
+#slogan h4 {
+  color: white;
+  text-align: left;
+}
+
+#contenido #biblia h3 {
+  color: black;
+  font-weight: bold;
+  margin: 0 0 0 20px;
+  padding: 20px;
+}
+#contenido #biblia p {
+  color: black;
+  margin: 0 17px 0 35px;
+  padding: 20px;
+}
+#contenido img {
+  display: block;
+  width: 85%;
+  padding: 20px 50px 20px 0;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+footer {
+  background-color: black;
+}
+footer #fb {
+  color: white;
+}
+footer #ig {
+  color: white;
+}
+footer #git {
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=miembrosNuevos.css.map */

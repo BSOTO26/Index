@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&amp;display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/f73cec6e40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+    <link rel="stylesheet" href="css/index_style.css"/>
+    <title>Index</title>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="w3-card" id="logo">
+
+        <img id="tpa" src="Logo.jpeg">
+        <h3>Ministerios Transformados por Amor</h3>
+
+      </div>
+
+      <div class="w3-card w3-large" id="navbar">
+
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Actividades.html">Actividades</a></li>
+            <li><a href="ministerios.html">Ministerios</a></li>
+            <li><a href="miembrosNuevos.html">Miembros Nuevos</a></li>
+        </ul>
+
+      </div>
+
+    </header>
+
+    <br>
+
+    
+      <header class="w3-container" id="slogan">
+        <h1>Somos transformados para Transformar</h1>
+      </header>
+
+      <div class="w3-padding-64 w3-container" >
+
+          <div class="w3-third">
+
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftransformadosporamorcr&tabs=timeline&width=400&height=900&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+          </div>
+        
+          <div class="w3-twothird w3-center">
+
+            <div class="slideshow-container">
+
+              <div class="mySlides">
+                <img src="Culto_Domingos.png" style="width:75%">
+              </div>
+          
+              <div class="mySlides">
+                <img src="Culto_Miercoles.png" style="width:75%">
+              </div>
+            
+              <div class="mySlides">
+                <img src="Hombres.png" style="width:75%">
+              </div>
+
+              <div class="mySlides">
+                <img src="Matrimonios.png" style="width:75%">
+              </div>
+
+              <div class="mySlides">
+                <img src="T2Barca.jpg" style="width:75%">
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+
+            <br>
+
+          <p id="reuniones">¡Transformados por Amor tiene varios servicios durante todo el mes!<br>Están las reuniones generales, los Miércoles a las 7:00 PM y los Domingos a las 10:00 AM<br>Además, hay Barcas dirigidas a diferentes grupos, como Hombres, Mujeres, Jóvenes, Matrimonios, entre otros.<br><br> Si quieres saber lo que és una Barca <a href="miembrosNuevos.html">Dale click aquí</a></p>
+
+        </div>
+
+    </div>
+
+        <header class="w3-container w3-center" id="slogan">
+
+         <h3 class="w3-margin" style="font-weight: bold;">Somos un instrumento de Dios para ser una opción de cambio integral en las personas de los Barrios del Sur de San José.</h3>
+
+        </header>
+        
+        <br>
+        <br>
+
+        
+
+      
+      
+    <footer class="w3-container w3-center">
+
+      <div class="w3-xxlarge">
+        
+        <a class="fab fa-facebook-square w3-btn" href="https://www.facebook.com/transformadosporamorcr" id="fb"></a>
+        <a class="fab fa-instagram w3-btn" href="#" id="ig"></a>
+      
+      </div>
+
+       <p style="font-size: 0.8em;">Creado por BSOTO26. 2020. <br/> Sitio Web propiedad de la Iglesia Transformados Por Amor</p>
+       <a class="fab fa-github w3-xlarge" id="git" href="https://github.com/BSOTO26"></a>
+
+      <br>
+      <br>
+
+    </footer>
+
+  </body>
+            
+</html>
+
+<script>
+
+var slideIndex = 1;
+
+  showSlides(slideIndex);
+
+function plusSlides(n) {
+
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
